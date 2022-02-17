@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  background-image: url(/assets/images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #E0E8FF;
+
+}
+
+
+.card{
+  width: 350px;
+  height: 530px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.illustration{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+
+.title{
+  font-size: 18px;
+  color: #253353;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.subtitle{
+  color: #9AA1B8;
+  margin: 0px 25px 30px;
+}
+
+
+.plans{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  background-color: #F8F9FE;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.container-icon{
+  align-items: center;
+  display: flex;
+  gap:10px
+}
+
+.text{
+  color: #253353;
+  font-weight: bold;
+}
+
+.info{
+  color: #9AA1B8;
+}
+
+.change{
+  color: #8479DA;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.change:hover{
+  opacity: 0.8;
+}
+
+.change:active{
+  opacity: 0.6;
+}
+
+button{
+  width: 80%;
+  padding: 8px 0px;
+  color: #fff;
+  background-color: #382AE1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+button:hover{
+  opacity: 0.8;
+  
+}
+
+button:active{
+  opacity: 0.6;
+}
+
+.cancel{
+  color: #6B738A;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.cancel:hover{
+  opacity: 0.8;
+}
+
+.cancel:active{
+  opacity: 0.6;
+}
